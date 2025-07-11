@@ -255,16 +255,15 @@ INSERT INTO ChiTietPN (MaCTPN, MaPN, MaNL, SL, DonGia) VALUES (N'CTPN9', N'PN6',
 INSERT INTO ChiTietPN (MaCTPN, MaPN, MaNL, SL, DonGia) VALUES (N'CTPN10', N'PN2', N'NL1', '4.35', '50000');
 
 -- Bảng: NguyenLieu_MonAn
-INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'MA9', N'NL10', '0.23', N'kg');
-INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'MA6', N'NL4', '0.7', N'kg');
-INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'MA3', N'NL10', '0.59', N'kg');
-INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'MA10', N'NL2', '0.76', N'kg');
-INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'MA4', N'NL6', '0.82', N'kg');
-INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'MA6', N'NL4', '0.23', N'kg');
-INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'MA6', N'NL1', '0.2', N'kg');
-INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'MA2', N'NL5', '0.26', N'kg');
-INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'MA4', N'NL5', '0.66', N'kg');
-INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'MA6', N'NL2', '0.63', N'kg');
+INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'A9', N'NL10', '0.23', N'kg');
+INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'A5', N'NL4', '0.7', N'kg');
+INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'A3', N'NL10', '0.59', N'kg');
+INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'A10', N'NL2', '0.76', N'kg');
+INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'A4', N'NL6', '0.82', N'kg');
+INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'A6', N'NL4', '0.23', N'kg');
+INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'A8', N'NL1', '0.2', N'kg');
+INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'A4', N'NL8', '0.66', N'kg');
+INSERT INTO NguyenLieu_MonAn (MaMA, MaNL, SoLuong, DonVi) VALUES (N'A1', N'NL2', '0.63', N'kg');
 
 
 -- Dữ liệu mẫu cho bảng NhanVien
@@ -331,4 +330,5 @@ INSERT INTO HoaDonChiTiet (MaHDCT, MaHD, MaMA, SL, DonGia) VALUES
 ('HDCT08', 'HD08', 'H1', 1, 50000),
 ('HDCT09', 'HD09', 'I1', 1, 15000),
 ('HDCT10', 'HD10', 'J1', 2, 300000);
+
 
