@@ -6,14 +6,18 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ *
+ * @author amyas
+ */
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
 @Builder
+@Data
 public class ReceiptDetail {
-    private String receiptDetailId;  // MaCTPN
-    private String receiptId;        // MaPN
-    private String materialId;       // MaNL
-    private Float quantity;          // SL
-    private BigDecimal price;        // DonGia
+    private String MaCTPN;
+    private String MaPN;
+    private String MaNL;
+    private Float SL;
+    private BigDecimal DonGia;
 }
